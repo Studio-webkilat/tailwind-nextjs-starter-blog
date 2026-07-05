@@ -10,8 +10,9 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky"
-  },
-  "dependencies": {
+  "postinstall": "yarn install --legacy-peer-deps", 
+  }, 
+    "dependencies": {
     "@headlessui/react": "2.2.9",
     "@next/bundle-analyzer": "15.5.12",
     "@tailwindcss/forms": "^0.5.11",

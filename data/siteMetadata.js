@@ -1,18 +1,18 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Studio Webkilat Blog',
-  author: 'Studio Webkilat',
+  author: 'Trimo Wawan',
   headerTitle: 'Studio Webkilat',
   description: 'Blog tutorial website, bisnis, dan teknologi',
   language: 'id-ID',
-  theme: 'Cyan', // system, Neon or green
+  theme: 'dark', // system, dark or blue
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/studio-webkilat-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'trimowawan1@gmailcom',
-  github: 'https://github.com',
+  github: 'https://github.com/Studio-webkilat',
   x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',

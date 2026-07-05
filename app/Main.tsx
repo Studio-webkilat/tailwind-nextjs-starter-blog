@@ -17,7 +17,7 @@ export default function Home({ posts }) {
              <p className="text-glow-pink text-2xl leading-7 text-center mt-4">
               Jasa Website Digital Frontier
            </p>
-        </div
+        <div
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {

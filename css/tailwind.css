@@ -173,3 +173,37 @@ input:-webkit-autofill:focus {
   display: inline-block;
   vertical-align: middle;
 }
+/* === TEMA CYBERNETIC REALITY 2088 === */
+
+body {
+  background: radial-gradient(ellipse at center, #1a0033 0%, #0a001f 100%);
+  background-image: 
+    url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0L77 20L77 60L40 80L3 60L3 20Z' fill='none' stroke='%2322D3EE' stroke-opacity='0.12' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+/* Efek Teks Glow Biru - untuk Judul Utama */
+.text-glow-blue {
+  color: #fff;
+  text-shadow: 
+    0 0 5px #22D3EE,
+    0 0 10px #22D3EE,
+    0 0 20px #22D3EE,
+    0 0 40px #A855F7;
+}
+
+/* Efek Teks Glow Pink - untuk Sub Judul */
+.text-glow-pink {
+  color: #fff;
+  text-shadow: 
+    0 0 5px #F472B6,
+    0 0 10px #F472B6,
+    0 0 20px #EC4899;
+}
+
+/* Efek Teks Glow Cyan Kecil */
+.text-glow-cyan {
+  color: #fff;
+  text-shadow: 
+    0 0 5px #22D3EE,
+    0 0 10px #06B6D4;
+}

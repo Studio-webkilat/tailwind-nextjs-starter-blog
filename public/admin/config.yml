@@ -1,10 +1,14 @@
 backend:
-  name: studio webkilat
-  repo: Studio-webkilat
+  name: github
+  repo: Studio-webkilat/tailwind-nextjs-starter-blog  
   branch: main
+  base_url: https://tailwind-nextjs-starter-blog-sqx2-eight.vercel.app  
+  auth_endpoint: /api/auth
 
 media_folder: "public/static"
 public_folder: "/static"
+
+site_url: https://tailwind-nextjs-starter-blog-sqx2-eight.vercel.app 
 
 collections:
     - name: "blog"

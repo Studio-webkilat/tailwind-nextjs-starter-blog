@@ -1,0 +1,19 @@
+backend:
+  name: studio webkilat
+  repo: Studio-webkilat
+  branch: main
+
+media_folder: "public/static"
+public_folder: "/static"
+
+collections:
+    - name: "blog"
+    label: "Artikel"
+    folder: "data/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+            - {label: "Judul", name: "title", widget: "string"}
+            - {label: "Tanggal", name: "date", widget: "datetime"}
+            - {label: "Ringkasan", name: "summary", widget: "text"}
+            - {label: "Isi Artikel", name: "body", widget: "markdown"}
